@@ -1,9 +1,10 @@
 body {
-    background-color: #121212;
+    background: linear-gradient(to right, #1e1e2f, #3a3a5c);
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: 'MedievalSharp', cursive;
     text-align: center;
     padding-top: 50px;
+    min-height: 100vh;
   }
   
   h1 {
@@ -66,4 +67,14 @@ body {
     img {
       width: 90%;
     }
+  }
+  #bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    filter: brightness(0.4);
   }
