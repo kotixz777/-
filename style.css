@@ -8,7 +8,7 @@ body {
   }
   
   h1 {
-    color: #00ffcc;
+    color: #ff00c3;
     font-size: 40px;
   }
   
@@ -35,8 +35,8 @@ body {
     font-size: 18px;
   }
   h1 {
-    color: #00ffcc;
-    font-size: 40px;
+    color: #088480ab;
+    font-size: 50px;
     opacity: 0;
     animation: fadeIn 2s forwards;
   }
@@ -78,3 +78,32 @@ body {
     object-fit: cover;
     filter: brightness(0.4);
   }
+  .telegram-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+}
+
+.telegram-button img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.telegram-button img:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fancy-text {
+    animation: fadeIn 2s ease-in;
+  }
+  
